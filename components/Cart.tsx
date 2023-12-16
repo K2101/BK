@@ -16,7 +16,7 @@ const Cart: React.FC<any> = memo(({ menus, decr, incr, deleteMenu }) => {
       const quantity = items.length;
 
       return (
-        <div >
+        <div key={menuId}>
           <Order key={menuId}
             menu={items[0]} menuId={menuId} quantity={quantity} decr={decr} incr={incr} deleteMenu={deleteMenu}
 
