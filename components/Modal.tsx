@@ -80,4 +80,6 @@ const Modal: React.FC<Modal> = memo(({ onClose, setAddMenu, id, name, desc, phot
   )
 })
 
+Modal.displayName = 'Modal';
+
 export default Modal

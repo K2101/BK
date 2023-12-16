@@ -75,4 +75,6 @@ const MenuCard: React.FC<IMenuCard> = memo(({ id, name, desc, price, photo, disc
   )
 })
 
+MenuCard.displayName = 'MenuCard';
+
 export default MenuCard

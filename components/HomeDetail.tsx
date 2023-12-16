@@ -187,4 +187,6 @@ const HomeDetail: React.FC<HomeDetail> = memo(({ menu: menuSelectioin }) => {
   )
 })
 
+HomeDetail.displayName = 'HomeDetail';
+
 export default HomeDetail

@@ -52,4 +52,6 @@ const Order: React.FC<OrderList> = memo(({ menu, menuId, quantity, incr, decr, d
   )
 })
 
+Order.displayName = 'Order';
+
 export default Order

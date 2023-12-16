@@ -5,7 +5,6 @@ import Order from './Order';
 
 
 const Cart: React.FC<any> = memo(({ menus, decr, incr, deleteMenu }) => {
-
   const renderOrder = () => {
     if (!menus || Object.keys(menus).length === 0) {
       return <div className='font-bold text-lg text-gray-400 mb-10'>Empty order!</div>;
@@ -64,5 +63,7 @@ const Cart: React.FC<any> = memo(({ menus, decr, incr, deleteMenu }) => {
 
   )
 })
+
+Cart.displayName = 'Cart';
 
 export default Cart

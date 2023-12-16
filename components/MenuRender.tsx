@@ -26,4 +26,7 @@ const MenuRender: React.FC<Menu> = memo(({ menu, setAddMenu, pizza, burger, sala
   )
 })
 
+MenuRender.displayName = 'MenuRender';
+
+
 export default MenuRender
